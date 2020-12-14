@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border: none #323643;
+            border-radius: 5px;
+            padding: 7px;
+            outline: none;
+            background-color: #606470;
+            color: white;
+            margin-top: 10px;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+        input#box2{
+            margin-left: 10px;
+        }
+        div.container{
+            margin-left: 500px;
+        }
+        input#result{
+            margin-left: 18px;
+        }
+        #btn{
+            margin-left: 100px;
+            width: 100px;
+        }        
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 style="margin-right:500px">Calculate the Power </h1>
+        <span>Voltage</span>
+        <input type="number" placeholder="Enter the voltage" required id="box1"> <br>
+        <span>Current</span>
+        <input type="number" placeholder="Enter the current" required id="box2"> <br>
+        <span>Result</span>
+        <input type="number" placeholder="Result" id="result"> <br>
+        <input type="button" value="Result" onclick="power()" id="btn">
+    </div>
+
+    <script src="sc.js"></script>
+</body>
+</html>

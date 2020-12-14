@@ -6,4 +6,4 @@ function area(){
     document.getElementById('result').value = multi;
 
     
-}
+};
